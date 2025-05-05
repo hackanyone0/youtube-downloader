@@ -8,6 +8,5 @@ def download_video(url):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
 
-# Example usage
 video_url = "https://www.youtube.com/watch?v=djJXSIgsi_4&list=LL&index=5"
 download_video(video_url)
